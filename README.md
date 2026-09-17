@@ -1,3 +1,13 @@
+## Como colocar o projeto no Git
+Em uma pasta vazia, utilize o comando git init para inicializar o packet 
+em seguida, utilize o comando git clone -b endereço da branch para criar a pasta do repositorio do projeto
+cd e entre na pasta
+copie os arquivos do seu projeto para dentro dessa pasta
+em seguida utilize o comando git add . para adicionar os arquivos que estão no projeto para inicialização de transferencia
+digite o comando git comit - "" para inicializar o commit
+e por ultimo git push origin main digite o comando para puchar da origem ()remoto( ao local onde vai salvar no casso a branch do git hub
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
