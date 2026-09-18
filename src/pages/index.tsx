@@ -19,8 +19,18 @@ import bannerRodape from "@/assets/banner-rodape.png"
 import Link from "next/link"
 
 const homePage = () =>{
+
   return(
+
     <main className="containerScreen">
+
+          <>
+              <head>
+                  <title>Gabriel Belo - Site Animes</title>
+                  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                  <meta name="author" content="Gabriel Belo - Gveb Networks"/>
+              </head>
+          </>
 
         <section className="w-full">
                 <div className="relative">
