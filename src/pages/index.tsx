@@ -27,12 +27,12 @@ const homePage = () =>{
                       <Image src={mainBanner} alt="" className="w-full h-auto"/>
 
                       <div className="absolute top-1/2 -translate-y-1/2 p-5">
-                            <h1 className="text-6xl text-bold text-white">Sua próxima <br/>aventura começa aqui.</h1>
-                            <p className="text-white text-xl pt-2">Descubra mais sobre animes, novidades e histórias que merecem sua atenção.</p>
+                            <h1 className=" text-md md:text-6xl text-bold text-white">Sua próxima <br/>aventura começa aqui.</h1>
+                            <p className="text-white text-sm md:text-xl pt-1 md:pt-2">Descubra mais sobre animes, novidades e histórias que merecem sua atenção.</p>
 
                             <div className="w-full flex flex-row flex-wrap gap-5 py-3">
-                              <Link href="#" className="bg-orange-500 px-5 py-3 text-white text-bold text-md rounded">Explorar animes</Link>
-                              <Link href="#" className="text-white px-5 py-3 border-1 border-white rounded">Últimas Noticias</Link>
+                              <Link href="#" className="bg-orange-500  px-2 py-1 md:px-5 md:py-3 text-white text-bold text-sm md:text-md rounded">Explorar animes</Link>
+                              <Link href="#" className="text-white px-2 py-1 md:px-5 md:py-3 border-1 border-white text-sm md:text-mdrounded">Últimas Noticias</Link>
                             </div>
                       </div>
                 </div>
@@ -277,8 +277,8 @@ const homePage = () =>{
             <Image src={bannerRodape} alt="" className="object-cover h-[300px] opacity-50"/>
 
             <div className="p-5 absolute top-1/2 -translate-y-1/2">
-              <h2 className="text-5xl text-bold text-orange-300">Boas histórias conectam pessoas.</h2>
-              <p className="text-xl text-white">Um espaço para descobrir animes, explorar universos<br/>e compartilhar a paixão por grandes histórias.</p>
+              <h2 className="text-xl md:text-5xl text-bold text-orange-300">Boas histórias conectam pessoas.</h2>
+              <p className="text-sm md:text-xl text-white">Um espaço para descobrir animes, explorar universos<br/>e compartilhar a paixão por grandes histórias.</p>
             </div>
           </div>
         </section>
