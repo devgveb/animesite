@@ -24,7 +24,7 @@ const homePage = () =>{
 
         <section className="w-full">
                 <div className="relative">
-                      <Image src={mainBanner} className="w-full h-auto"/>
+                      <Image src={mainBanner} alt="" className="w-full h-auto"/>
 
                       <div className="absolute top-1/2 -translate-y-1/2 p-5">
                             <h1 className="text-6xl text-bold text-white">Sua próxima <br/>aventura começa aqui.</h1>
@@ -52,7 +52,7 @@ const homePage = () =>{
             <div className="basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/5">
 
               <div className="p-2">
-                  <Image src={cardOne}/>
+                  <Image src={cardOne} alt=""/>
                   <div>
                     <h4 className="text-2xl text-white">Bleach</h4>
                     <div className="flex flex-row gap-2">
@@ -68,7 +68,7 @@ const homePage = () =>{
             <div className="basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/5">
             
               <div className="p-2">
-                  <Image src={cardTwo}/>
+                  <Image src={cardTwo} alt=""/>
                   <div>
                     <h4 className="text-2xl text-white">Bleach</h4>
                     <div className="flex flex-row gap-2">
@@ -84,7 +84,7 @@ const homePage = () =>{
             <div className="basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/5">
             
               <div className="p-2">
-                  <Image src={cardThree}/>
+                  <Image src={cardThree} alt=""/>
                   <div>
                     <h4 className="text-2xl text-white">Bleach</h4>
                     <div className="flex flex-row gap-2">
@@ -101,7 +101,7 @@ const homePage = () =>{
             <div className="basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/5">
             
               <div className="p-2">
-                  <Image src={cardFour}/>
+                  <Image src={cardFour} alt=""/>
                   <div>
                     <h4 className="text-2xl text-white">Bleach</h4>
                     <div className="flex flex-row gap-2">
@@ -118,7 +118,7 @@ const homePage = () =>{
             <div className="basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/5">
             
               <div className="p-2">
-                  <Image src={cardFive}/>
+                  <Image src={cardFive} alt=""/>
                   <div>
                     <h4 className="text-2xl text-white">Bleach</h4>
                     <div className="flex flex-row gap-2">
@@ -148,7 +148,7 @@ const homePage = () =>{
             <div className="basis-full md:basis-1/2 lg:basis-1/3">
             
               <div className="p-2">
-                  <Image src={newOne} />
+                  <Image src={newOne} alt="Ilustração sobre One Piece" />
                   <div className="p-3">
                     <p className="w-fit text-sm bg-red-500 p-1 rounded">TEORIAS</p>
                     <h4 className="text-2xl text-white">One Piece: os mistérios que ainda desafiam os fãs</h4>
@@ -161,7 +161,7 @@ const homePage = () =>{
             <div className="basis-full md:basis-1/2 lg:basis-1/3">
             
               <div className="p-2">
-                  <Image src={newTwo} />
+                  <Image src={newTwo} alt="Ilustração sobre protagonistas de anime" />
                   <div className="p-3">
                     <p className="w-fit text-sm bg-red-500 p-1 rounded">PERSONAGENS</p>
                     <h4 className="text-2xl text-white">Muito além do poder: o que faz um protagonista marcar você?</h4>
@@ -174,7 +174,7 @@ const homePage = () =>{
             <div className="basis-full md:basis-1/2 lg:basis-1/3">
             
               <div className="p-2">
-                  <Image src={newThree} />
+                  <Image src={newThree} alt="Ilustração da seleção de animes para maratonar" />
                   <div className="p-3">
                     <p className=" w-fit text-sm bg-red-500 p-1 rounded">PARA MARATONAR</p>
                     <h4 className="text-2xl text-white">Poucos episódios, grandes histórias</h4>
@@ -198,7 +198,7 @@ const homePage = () =>{
 
               <div className="md:basis-1/3 lg:basis-1/3 xl:basis-1/6">
                   <div className="relative p-2">
-                    <Image src={Gender1} className="opacity-80"/>
+                    <Image src={Gender1} alt="Demon Slayer" className="opacity-80"/>
                     <div className="absolute top-5 bg-red-500 text-white text-sm rounded ml-2 px-2 py-1"><p>Ação</p></div>
                     <div className="absolute bottom-0 flex flex-col p-5">
                     <h5 className="text-white text-2xl text-bold">Demon Slayer</h5>
@@ -211,7 +211,7 @@ const homePage = () =>{
 
               <div className="md:basis-1/3 lg:basis-1/3 xl:basis-1/6">
                   <div className="relative p-2">
-                    <Image src={Gender2} className="opacity-80"/>
+                    <Image src={Gender2} alt="One Piece" className="opacity-80"/>
                     <div className="absolute top-5 bg-red-500 text-sm text-white rounded ml-2 px-2 py-1"><p>Aventura</p></div>
                                        <div className="absolute bottom-0 flex flex-col p-5">
                     <h5 className="text-white text-2xl text-bold">One Piece</h5>
@@ -223,7 +223,7 @@ const homePage = () =>{
 
               <div className="md:basis-1/3 lg:basis-1/3 xl:basis-1/6">
                   <div className="relative p-2">
-                    <Image src={Gender3} className="opacity-80"/>
+                    <Image src={Gender3} alt="Your Name" className="opacity-80"/>
                     <div className="absolute top-5 ml-2 px-2 py-1 bg-red-500 text-white text-sm rounded"><p>Romance</p></div>
                                         <div className="absolute bottom-0 flex flex-col p-5">
                     <h5 className="text-white text-2xl text-bold">Your Name</h5>
@@ -235,7 +235,7 @@ const homePage = () =>{
 
               <div className="md:basis-1/3 lg:basis-1/3 xl:basis-1/6">
                   <div className="relative p-2">
-                    <Image src={Gender4} className="opacity-80"/>
+                    <Image src={Gender4} alt="Frieren" className="opacity-80"/>
                     <div className="absolute top-5 ml-2 px-2 py-1 rounded text-white text-sm bg-red-500"><p>Fantasia</p></div>
                                         <div className="absolute bottom-0 flex flex-col p-5">
                     <h5 className="text-white text-2xl text-bold">Frieren</h5>
@@ -247,7 +247,7 @@ const homePage = () =>{
 
               <div className="md:basis-1/3 lg:basis-1/3 xl:basis-1/6">
                   <div className="relative p-2">
-                    <Image src={Gender5} className="opacity-80"/>
+                    <Image src={Gender5} alt="Steins;Gate" className="opacity-80"/>
                     <div className="absolute top-5 ml-2 px-2 py-1 rounded text-white text-sm bg-red-500"><p>Ficção Cientifica</p></div>
                                         <div className="absolute bottom-0 flex flex-col p-5">
                     <h5 className="text-white text-2xl text-bold">Steins;Gate</h5>
@@ -259,7 +259,7 @@ const homePage = () =>{
 
               <div className="md:basis-1/3 lg:basis-1/3 xl:basis-1/6">
                   <div className="relative p-2">
-                    <Image src={Gender6} className="opacity-80"/>
+                    <Image src={Gender6} alt="Violet Evergarden" className="opacity-80"/>
                     <div className="absolute top-5 ml-2 px-2 py-1 text-white rounded text-sm bg-red-500"><p>Drama</p></div>
                                       <div className="absolute bottom-0 flex flex-col p-5">
                     <h5 className="text-white text-2xl text-bold">Violet Evergarden</h5>
@@ -274,7 +274,7 @@ const homePage = () =>{
 
         <section className="w-full h-auto">
           <div className="relative ">
-            <Image src={bannerRodape} className="object-cover h-[300px] opacity-50"/>
+            <Image src={bannerRodape} alt="" className="object-cover h-[300px] opacity-50"/>
 
             <div className="p-5 absolute top-1/2 -translate-y-1/2">
               <h2 className="text-5xl text-bold text-orange-300">Boas histórias conectam pessoas.</h2>
@@ -283,7 +283,7 @@ const homePage = () =>{
           </div>
         </section>
 
-        <header className="w-full h-auto"><p className="text-center p-5 text-white w-full">© 2026 Gabriel Belo. Todos os direitos reservados.</p></header>
+        <footer className="w-full h-auto"><p className="text-center p-5 text-white w-full">© 2026 Gabriel Belo. Todos os direitos reservados.</p></footer>
 
     </main>
   )
